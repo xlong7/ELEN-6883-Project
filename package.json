@@ -1,0 +1,22 @@
+{
+  "name": "elen-6883-project",
+  "version": "1.0.0",
+  "description": "Final Project for ELEN 6883",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xlong7/ELEN-6883-Project.git"
+  },
+  "author": "Xinyi Long",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xlong7/ELEN-6883-Project/issues"
+  },
+  "homepage": "https://github.com/xlong7/ELEN-6883-Project#readme",
+  "dependencies": {
+    "moment": "^2.29.3"
+  }
+}
