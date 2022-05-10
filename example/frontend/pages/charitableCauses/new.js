@@ -48,7 +48,7 @@ class CharitableCauseNew extends Component {
   render() {
     return (
       <Layout>
-        <h3>Create a CharitableCause</h3>
+        <h3> Create a Donation</h3>
 
         <Form onSubmit={this.onSubmit} error={!!this.state.errorMessage}>
           <Form.Field>
@@ -67,8 +67,8 @@ class CharitableCauseNew extends Component {
             <label>Title</label>
 
             <Input
-              label="Enter Organisation Name"
-              labelPosition="right"
+              label="Please Put Your Organization Name"
+              labelPosition="left"
               value={this.state.title}
               onChange={(event) =>
                 this.setState({ title: event.target.value })
@@ -79,8 +79,8 @@ class CharitableCauseNew extends Component {
             <label>Details</label>
 
             <Input
-              label="Enter Organisation Details"
-              labelPosition="right"
+              label="Please Put Your Organisation Details"
+              labelPosition="left"
               value={this.state.details}
               onChange={(event) =>
                 this.setState({ details: event.target.value })
@@ -102,8 +102,8 @@ class CharitableCauseNew extends Component {
           <Form.Field>
             <label>Cause Type</label>
             <Input
-              label="What cause are you helping?"
-              labelPosition="right"
+              label="Please Put Type of Your Cause Here"
+              labelPosition="left"
               value={this.state.causeType}
               onChange={(event) =>
                 this.setState({ causeType: event.target.value })
@@ -112,7 +112,7 @@ class CharitableCauseNew extends Component {
           </Form.Field>
           <Message error header="Oops!" content={this.state.errorMessage} />
           <Button loading={this.state.loading} primary>
-            Create!
+            Create Now
           </Button>
         </Form>
       </Layout>
@@ -121,3 +121,4 @@ class CharitableCauseNew extends Component {
 }
 
 export default CharitableCauseNew;
+
