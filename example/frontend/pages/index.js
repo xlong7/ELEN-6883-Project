@@ -31,7 +31,7 @@ class CharitableCauseIndex extends Component {
             href="/charitableCauses/[charitableCause]"
             as={`/charitableCauses/${address}`}
           >
-            <a>View CharitableCause</a>
+            <a>View Donations</a>
           </Link>
         ),
         fluid: true,
@@ -48,7 +48,7 @@ class CharitableCauseIndex extends Component {
     return (
       <Layout>
           <div>
-            <h3>Open CharitableCauses</h3>
+            <h3>Donate Bitcoin for Charity!</h3>
    {//        <div className="col">
    //   <h1>Mi Casa</h1>
    //   <p>This is my house y&apos;all!</p>
@@ -58,9 +58,9 @@ class CharitableCauseIndex extends Component {
           <Link href="/charitableCauses/new">
             <a>
               <Button
-                floated="right"
-                content="Register an Organisation"
-                icon="add circle"
+                floated="bottom"
+                content="Start as a new organization"
+                icon="add"
                 primary
               />
             </a>
