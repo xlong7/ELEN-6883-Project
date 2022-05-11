@@ -6,7 +6,6 @@ To run project, please do:
 
 2. Please change the secret key in secrets.json to your own secret key
 
-0xB2622966b9b9B827aC67a7e8e701ee00077490E4.json
 
 # Check the smart contract in localhost
 1. cd frontend
