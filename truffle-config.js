@@ -86,7 +86,8 @@ module.exports = {
       //provider: () => new HDWalletProvider([privateKey], `wss://huygens.ccn.org`),
       provider: () => new HDWalletProvider([privateKey], `https://huygens.computecoin.network/`),
       network_id: 828,
-      confirmations: 10,
+      //confirmations: 10,
+      confirmations: 6,
       timeoutBlocks: 200,
       skipDryRun: true
     },
@@ -95,7 +96,8 @@ module.exports = {
       //provider: () => new HDWalletProvider([privateKey], `wss://huygens.ccn.org`),
       provider: () => new HDWalletProvider([privateKey], `https://test-huygens.computecoin.info/`),
       network_id: 828,
-      confirmations: 10,
+      //confirmations: 10,
+      confirmations: 6,
       timeoutBlocks: 200,
       skipDryRun: true
     },    
